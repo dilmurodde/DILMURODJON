@@ -19,7 +19,7 @@ def run_flask():
 
 # Logging sozlamalari
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(imghdr)
 
 # DIQQAT: Tokenni aynan mana shunday qo'shtirnoq ichida yozing!
 TELEGRAM_BOT_TOKEN = '8629776604:AAHuCwNwmca0XanHVd9sP0x83j6s0S7nuXg'
