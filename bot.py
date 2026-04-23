@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Bot tokenini .env fayldan olish
-TELEGRAM_BOT_TOKEN = os.getenv('8629776604:AAHuCwNwmcA0XanHVd9sPOx83j6sOS7nuXg')
+TELEGRAM_BOT_TOKEN = os.getenv'8629776604:AAHuCwNwmcA0XanHVd9sPOx83j6sOS7nuXg'
 
 async def start(update: Update, context) -> None:
     await update.message.reply_html(f"Salom {update.effective_user.mention_html()}!\n\nInstagram havolasini yuboring.")
